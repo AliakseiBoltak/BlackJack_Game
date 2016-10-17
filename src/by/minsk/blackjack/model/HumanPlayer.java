@@ -10,7 +10,7 @@ public class HumanPlayer extends Player {
 		setBank(Constants.PLAYER_BANK);
 	}
 
-	public int makeBet() { // делаем ставку
+	public int makeBet() { 
 		boolean betRequired = true;
 		while (betRequired) {
 			Scanner sc = new Scanner(System.in);

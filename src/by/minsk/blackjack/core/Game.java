@@ -36,11 +36,11 @@ public class Game {
 					break;
 				}
 				InformationLogger.printBank(humanPlayer, bot, diler);
-				setPlayerBet(humanPlayer); // ????? ?????? ??????
-				takeCards(humanPlayer, coloda, 2, diler);// ????? ????? ?????
-				setPlayerBet(bot); // ??? ?????? ??????
-				takeCards(bot, coloda, 2, diler); // ??? ????? ?????
-				takeCards(diler, coloda, 2, diler);// ????? ????? ?????
+				setPlayerBet(humanPlayer); 
+				takeCards(humanPlayer, coloda, 2, diler);
+				setPlayerBet(bot); 
+				takeCards(bot, coloda, 2, diler); 
+				takeCards(diler, coloda, 2, diler);
 			}
 			if (start.equals("n")) {
 				System.out.println("Goodbye!");
@@ -97,7 +97,7 @@ public class Game {
 	}
 
 	public static void prepareForGame(Player humanPlayer, Player bot, Player diler) {
-		humanPlayer.setSum(0); // ???????? ????? ????? ??? ?????? ????? ????
+		humanPlayer.setSum(0); 
 		diler.setSum(0);
 		bot.setSum(0);
 	}
@@ -121,7 +121,7 @@ public class Game {
 				takeCard(humanPlayer, L2, diler);
 				InformationLogger.printSum(humanPlayer);
 			}
-			if (c.equals("n")) { // ?????? ???????? ???
+			if (c.equals("n")) {
 				if (diler.getSum() > 21) {
 					play = false;
 					break;
@@ -164,9 +164,9 @@ public class Game {
 	}
 
 	public static void endGame(Player bot, Player humanPlayer, Player diler) {
-		int p = humanPlayer.getSum(); // c???? ??????
-		int d = diler.getSum(); // ????? ??????
-		int b = bot.getSum(); // ????? ????
+		int p = humanPlayer.getSum(); 
+		int d = diler.getSum(); 
+		int b = bot.getSum(); 
 		InformationLogger.printSum(bot, humanPlayer, diler);
 		if (p <= 21 && d <= 21) {
 			if (p > d) {

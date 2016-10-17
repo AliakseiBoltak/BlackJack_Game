@@ -7,7 +7,7 @@ public class Bot extends Player {
 		setBank(Constants.BOT_BANK);
 	}
 
-	public int makeBet() { // бот делает ставку рандомно
+	public int makeBet() { 
 		int s = this.getBank();
 		setBet((int) Math.ceil(Math.random() * s));
 		System.out.println("Bot bet is: " + getBet());

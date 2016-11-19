@@ -9,5 +9,7 @@ public final class Constants {
 	public static final int DILER_BANK = 777777;
 	public static final String DILER_NAME = "SuperMegaDrugDiler";
 
-	
+
+	// some comments fot test
+
 }

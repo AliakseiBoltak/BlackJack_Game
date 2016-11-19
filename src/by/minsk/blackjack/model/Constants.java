@@ -10,6 +10,5 @@ public final class Constants {
 	public static final String DILER_NAME = "SuperMegaDrugDiler";
 
 
-	// some comments fot test
-    //another comment
+
 }

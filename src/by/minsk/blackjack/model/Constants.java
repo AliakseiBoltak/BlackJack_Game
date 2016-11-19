@@ -10,5 +10,5 @@ public final class Constants {
 	public static final String DILER_NAME = "SuperMegaDrugDiler";
 
 
-
+  //new friend
 }

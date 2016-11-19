@@ -1,6 +1,7 @@
 package by.minsk.blackjack.model;
 /*
 created by Aliaksei Boltak
+cool game
 */
 public final class Constants {
 	public static final int PLAYER_BANK = 1000;

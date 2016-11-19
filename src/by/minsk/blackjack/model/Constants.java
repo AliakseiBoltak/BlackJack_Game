@@ -11,4 +11,5 @@ public final class Constants {
 
 
   //new friend
+  //second one
 }

@@ -3,7 +3,10 @@ package by.minsk.blackjack.model;
 import java.util.LinkedList;
 import java.util.Collections;
 import java.util.List;
-//clever diler
+
+
+//bububub
+
 public class Diler extends Player {
 
 	public Diler() {

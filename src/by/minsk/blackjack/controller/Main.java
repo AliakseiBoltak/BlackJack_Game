@@ -1,6 +1,6 @@
 package by.minsk.blackjack.controller;
 /*
-created by aliaksei boltak
+created by aliaksei boltak long time ago
 */
 import by.minsk.blackjack.core.Game;
 

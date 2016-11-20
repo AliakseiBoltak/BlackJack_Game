@@ -1,5 +1,5 @@
 package by.minsk.blackjack.model;
-
+//this is clever bot
 public class Bot extends Player {
 
 	public Bot() {

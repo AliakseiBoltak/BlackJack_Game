@@ -6,7 +6,9 @@ import java.util.Scanner;
 
 import by.minsk.blackjack.logger.InformationLogger;
 import by.minsk.blackjack.model.*;
-
+/*
+test new branch
+*/
 public class Game {
 
 	public static void startGame() {
